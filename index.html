@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Portail Sécurisé</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="box">
+    <h1>🔐 Accès sécurisé</h1>
+    <p>Entrez le mot de passe :</p>
+    <input type="password" id="password" placeholder="Mot de passe">
+    <button id="validate">Valider</button>
+    <p id="message"></p>
+
+    <div id="buttons" style="display:none;">
+        <button onclick="window.location.href='rapports.html'">Rapports</button>
+        <button onclick="window.open('https://sites.google.com/view/gdabravo/accueil', '_blank')">Fiches</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
